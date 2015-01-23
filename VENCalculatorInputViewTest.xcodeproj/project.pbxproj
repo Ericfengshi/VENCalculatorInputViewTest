@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0CEB981A727F200013D4C5 /* VENCalculatorInputView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9F0CEB971A727F200013D4C5 /* VENCalculatorInputView.bundle */; };
+		9FEEA76B1A680BC90000033B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEEA76A1A680BC90000033B /* UIKit.framework */; };
+		9FEEA76D1A680BC90000033B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEEA76C1A680BC90000033B /* Foundation.framework */; };
+		9FEEA76F1A680BC90000033B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEEA76E1A680BC90000033B /* CoreGraphics.framework */; };
+		9FEEA7751A680BC90000033B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEA7731A680BC90000033B /* InfoPlist.strings */; };
+		9FEEA7771A680BC90000033B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEA7761A680BC90000033B /* main.m */; };
+		9FEEA77B1A680BC90000033B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEA77A1A680BC90000033B /* AppDelegate.m */; };
+		9FEEA77E1A680BC90000033B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEA77D1A680BC90000033B /* ViewController.m */; };
+		9FEEA7811A680BC90000033B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEA77F1A680BC90000033B /* ViewController.xib */; };
+		9FEEA78E1A680C060000033B /* VENCalculatorInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEA78C1A680C060000033B /* VENCalculatorInputView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9FEEA78F1A680C060000033B /* VENCalculatorInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEA78D1A680C060000033B /* VENCalculatorInputView.xib */; };
+		9FEEA7A51A6815390000033B /* VENCalculatorInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEA7A21A6815390000033B /* VENCalculatorInputTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F0CEB971A727F200013D4C5 /* VENCalculatorInputView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VENCalculatorInputView.bundle; sourceTree = "<group>"; };
+		9FEEA7661A680BC90000033B /* VENCalculatorInputViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VENCalculatorInputViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEEA76A1A680BC90000033B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FEEA76C1A680BC90000033B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FEEA76E1A680BC90000033B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FEEA7721A680BC90000033B /* VENCalculatorInputViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VENCalculatorInputViewTest-Info.plist"; sourceTree = "<group>"; };
+		9FEEA7741A680BC90000033B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FEEA7761A680BC90000033B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FEEA7781A680BC90000033B /* VENCalculatorInputViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VENCalculatorInputViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		9FEEA7791A680BC90000033B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FEEA77A1A680BC90000033B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FEEA77C1A680BC90000033B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FEEA77D1A680BC90000033B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FEEA7801A680BC90000033B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9FEEA78B1A680C060000033B /* VENCalculatorInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENCalculatorInputView.h; sourceTree = "<group>"; };
+		9FEEA78C1A680C060000033B /* VENCalculatorInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENCalculatorInputView.m; sourceTree = "<group>"; };
+		9FEEA78D1A680C060000033B /* VENCalculatorInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VENCalculatorInputView.xib; sourceTree = "<group>"; };
+		9FEEA7A11A6815390000033B /* VENCalculatorInputTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENCalculatorInputTextField.h; sourceTree = "<group>"; };
+		9FEEA7A21A6815390000033B /* VENCalculatorInputTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENCalculatorInputTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FEEA7631A680BC90000033B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEEA76B1A680BC90000033B /* UIKit.framework in Frameworks */,
+				9FEEA76D1A680BC90000033B /* Foundation.framework in Frameworks */,
+				9FEEA76F1A680BC90000033B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FEEA75B1A680BC90000033B = {
+			isa = PBXGroup;
+			children = (
+				9F0CEB971A727F200013D4C5 /* VENCalculatorInputView.bundle */,
+				9FEEA7A11A6815390000033B /* VENCalculatorInputTextField.h */,
+				9FEEA7A21A6815390000033B /* VENCalculatorInputTextField.m */,
+				9FEEA78B1A680C060000033B /* VENCalculatorInputView.h */,
+				9FEEA78C1A680C060000033B /* VENCalculatorInputView.m */,
+				9FEEA78D1A680C060000033B /* VENCalculatorInputView.xib */,
+				9FEEA7701A680BC90000033B /* VENCalculatorInputViewTest */,
+				9FEEA7691A680BC90000033B /* Frameworks */,
+				9FEEA7671A680BC90000033B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FEEA7671A680BC90000033B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FEEA7661A680BC90000033B /* VENCalculatorInputViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FEEA7691A680BC90000033B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FEEA76A1A680BC90000033B /* UIKit.framework */,
+				9FEEA76C1A680BC90000033B /* Foundation.framework */,
+				9FEEA76E1A680BC90000033B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FEEA7701A680BC90000033B /* VENCalculatorInputViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				9FEEA7791A680BC90000033B /* AppDelegate.h */,
+				9FEEA77A1A680BC90000033B /* AppDelegate.m */,
+				9FEEA77C1A680BC90000033B /* ViewController.h */,
+				9FEEA77D1A680BC90000033B /* ViewController.m */,
+				9FEEA77F1A680BC90000033B /* ViewController.xib */,
+				9FEEA7711A680BC90000033B /* Supporting Files */,
+			);
+			path = VENCalculatorInputViewTest;
+			sourceTree = "<group>";
+		};
+		9FEEA7711A680BC90000033B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FEEA7721A680BC90000033B /* VENCalculatorInputViewTest-Info.plist */,
+				9FEEA7731A680BC90000033B /* InfoPlist.strings */,
+				9FEEA7761A680BC90000033B /* main.m */,
+				9FEEA7781A680BC90000033B /* VENCalculatorInputViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FEEA7651A680BC90000033B /* VENCalculatorInputViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEEA7841A680BC90000033B /* Build configuration list for PBXNativeTarget "VENCalculatorInputViewTest" */;
+			buildPhases = (
+				9FEEA7621A680BC90000033B /* Sources */,
+				9FEEA7631A680BC90000033B /* Frameworks */,
+				9FEEA7641A680BC90000033B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VENCalculatorInputViewTest;
+			productName = VENCalculatorInputViewTest;
+			productReference = 9FEEA7661A680BC90000033B /* VENCalculatorInputViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FEEA75D1A680BC90000033B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = fengs;
+			};
+			buildConfigurationList = 9FEEA7601A680BC90000033B /* Build configuration list for PBXProject "VENCalculatorInputViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FEEA75B1A680BC90000033B;
+			productRefGroup = 9FEEA7671A680BC90000033B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FEEA7651A680BC90000033B /* VENCalculatorInputViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FEEA7641A680BC90000033B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEEA7751A680BC90000033B /* InfoPlist.strings in Resources */,
+				9FEEA7811A680BC90000033B /* ViewController.xib in Resources */,
+				9FEEA78F1A680C060000033B /* VENCalculatorInputView.xib in Resources */,
+				9F0CEB981A727F200013D4C5 /* VENCalculatorInputView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FEEA7621A680BC90000033B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEEA7771A680BC90000033B /* main.m in Sources */,
+				9FEEA77B1A680BC90000033B /* AppDelegate.m in Sources */,
+				9FEEA77E1A680BC90000033B /* ViewController.m in Sources */,
+				9FEEA78E1A680C060000033B /* VENCalculatorInputView.m in Sources */,
+				9FEEA7A51A6815390000033B /* VENCalculatorInputTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FEEA7731A680BC90000033B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEEA7741A680BC90000033B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FEEA77F1A680BC90000033B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEEA7801A680BC90000033B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FEEA7821A680BC90000033B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FEEA7831A680BC90000033B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FEEA7851A680BC90000033B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VENCalculatorInputViewTest/VENCalculatorInputViewTest-Prefix.pch";
+				INFOPLIST_FILE = "VENCalculatorInputViewTest/VENCalculatorInputViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FEEA7861A680BC90000033B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VENCalculatorInputViewTest/VENCalculatorInputViewTest-Prefix.pch";
+				INFOPLIST_FILE = "VENCalculatorInputViewTest/VENCalculatorInputViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FEEA7601A680BC90000033B /* Build configuration list for PBXProject "VENCalculatorInputViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEEA7821A680BC90000033B /* Debug */,
+				9FEEA7831A680BC90000033B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEEA7841A680BC90000033B /* Build configuration list for PBXNativeTarget "VENCalculatorInputViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEEA7851A680BC90000033B /* Debug */,
+				9FEEA7861A680BC90000033B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FEEA75D1A680BC90000033B /* Project object */;
+}
